@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FoodHub – Online Food Ordering & Delivery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav"><div class="wrap nav-in">
+  <button class="burger" id="burger" aria-label="Menu">☰</button>
+  <a href="#/" class="logo">🍽️ Food<span>Hub</span></a>
+  <nav class="links" id="links">
+    <a href="#/" data-r="">Home</a><a href="#/restaurants" data-r="restaurants">Restaurants</a><a href="#/menu" data-r="menu">Menu</a>
+    <a href="#/orders" data-r="orders">Orders</a><a href="#/offers" data-r="offers">Offers</a><a href="#/about" data-r="about">About</a>
+  </nav>
+  <div class="nav-r">
+    <button class="ibtn" id="navSearch" aria-label="Search">🔍</button>
+    <button class="ibtn" id="cartBtn" aria-label="Cart">🛒<b id="cartCount">0</b></button>
+    <a class="ibtn" href="#/profile" aria-label="Profile">👤</a>
+    <a class="btn sm" id="authLink" href="#/login">Login</a>
+  </div>
+</div></header>
+
+<main id="app"></main>
+
+<footer class="foot"><div class="wrap">
+  <div class="fgrid">
+    <div><a href="#/" class="logo">🍽️ Food<span>Hub</span></a><p>Delicious food from local restaurants, delivered fast.</p><p class="social">📘 &nbsp;📸 &nbsp;🐦 &nbsp;▶️</p></div>
+    <div><h4>Company</h4><a href="#/about">About</a><a href="#/about">Contact</a><a href="#/offers">Offers</a></div>
+    <div><h4>Legal</h4><a href="#/about">Privacy</a><a href="#/about">Terms</a></div>
+    <div><h4>Support</h4><a href="#/about">Help</a><a href="#/orders">Track Order</a></div>
+  </div>
+  <p class="copy">© 2026 FoodHub · College DevOps Project</p>
+</div></footer>
+
+<div class="scrim" id="scrim"></div>
+<aside class="cart" id="cart" aria-label="Shopping cart">
+  <div class="cart-h"><h3>Your Cart</h3><button class="ibtn" id="cartClose" aria-label="Close">✕</button></div>
+  <div id="cartBody" class="cart-b"></div>
+  <div id="cartFoot" class="cart-f"></div>
+</aside>
+<div class="modal" id="modal" hidden><div class="mbox" id="mbox"></div></div>
+<div class="toast" id="toast" hidden></div>
+<script src="script.js"></script>
+</body>
+</html>
