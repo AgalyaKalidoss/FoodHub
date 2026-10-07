@@ -1,4 +1,4 @@
-# 🍔 FoodHub – Food Ordering Website
+# FoodHub – Food Ordering Website
 
 FoodHub is a responsive and user-friendly food ordering website developed using **HTML, CSS, and JavaScript**. The project provides a clean interface for exploring food items and interacting with different sections of the website.
 
